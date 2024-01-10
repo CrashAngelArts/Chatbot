@@ -1,6 +1,12 @@
 import fireworks.client
 import readline
+import re
 from rich import print
+from rich import pretty
+from rich.console import Console
+
+console = Console()
+pretty.install()
 
 # jurigged -v chat.py
 
@@ -23,10 +29,10 @@ def chat():
         text = input("chatbot: ")
         if text == "quit":
             break
-        response = generate_response(text)
+        out = generate_response(text)
+        out = "[bold cyan]" + format(out) + "[/bold cyan]"
         print('\n[yellow]----------------------------------------------------------[/yellow]')
-        print(response, end="\n")
-
+        console.print(out, style="bold yellow")
 
 def generate_response(text):
   response_generator = fireworks.client.ChatCompletion.create(
