@@ -1,0 +1,3 @@
+#!/bin/bash
+
+jurigged -v chat.py
