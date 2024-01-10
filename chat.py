@@ -1,18 +1,21 @@
 import fireworks.client
 import readline
 import re
+import shutil
+
 from rich import print
 from rich import pretty
 from rich.console import Console
 
 console = Console()
-pretty.install()
+#pretty.install()
+
+color_text = 'white'
+color_code = 'cyan'
 
 # jurigged -v chat.py
 
 fireworks.client.api_key = "1KjMT3rFn8IvF4ouKAXwoT8EKIVW7180V2e2TRNAkqMWkvff"
-
-import readline 
 
 def history_completer(text, state):
     if readline.get_history_length() > 0:
@@ -27,14 +30,11 @@ readline.set_completer(history_completer)
 def chat():
     while True:
         text = input("chatbot: ")
-        if text == "quit":
-            break
-        out = generate_response(text)
-        out = "[bold cyan]" + format(out) + "[/bold cyan]"
-        print('\n[yellow]----------------------------------------------------------[/yellow]')
-        console.print(out, style="bold yellow")
+        generate_response(text)
+        print(hr())
 
 def generate_response(text):
+  color = color_text
   response_generator = fireworks.client.ChatCompletion.create(
     model="accounts/fireworks/models/llama-v2-34b-code-instruct",
     messages=[{
@@ -45,12 +45,22 @@ def generate_response(text):
     n=1,
     max_tokens=1000,
     temperature=0.9,
-    stop=[],
+    stop=[]
   )
-  for chunk in response_generator:
-      if chunk.choices[0].delta.content is not None:
-          print(chunk.choices[0].delta.content, end="")
 
+  for chunk in response_generator:
+      if str(chunk.choices[0].delta.content).find('```') > 0:
+         print(hr())
+      elif chunk.choices[0].delta.content is not None:         
+         print (chunk.choices[0].delta.content.replace('``',''), end="")
+         #print(chunk.choices[0])
+
+def hr():
+    out = ""
+    width, height = shutil.get_terminal_size()
+    for i in range(width):
+        out += '[yellow]_[/yellow]'
+    return ('\n' + out + '\n')
 
 if __name__ == "__main__":
     chat()
