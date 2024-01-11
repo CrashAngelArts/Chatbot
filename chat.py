@@ -6,12 +6,10 @@ import shutil
 from rich import print
 from rich import pretty
 from rich.console import Console
+from rich.markdown import Markdown
 
 console = Console()
 #pretty.install()
-
-color_text = 'white'
-color_code = 'cyan'
 
 # jurigged -v chat.py
 
@@ -30,11 +28,11 @@ readline.set_completer(history_completer)
 def chat():
     while True:
         text = input("chatbot: ")
+        print(hr())
         generate_response(text)
         print(hr())
 
 def generate_response(text):
-  color = color_text
   response_generator = fireworks.client.ChatCompletion.create(
     model="accounts/fireworks/models/llama-v2-34b-code-instruct",
     messages=[{
@@ -48,12 +46,16 @@ def generate_response(text):
     stop=[]
   )
 
+  out = ''
   for chunk in response_generator:
-      if str(chunk.choices[0].delta.content).find('```') > 0:
-         print(hr())
-      elif chunk.choices[0].delta.content is not None:         
-         print (chunk.choices[0].delta.content.replace('``',''), end="")
+      #if str(chunk.choices[0].delta.content).find('```') > 0:
+         #print(hr())
+      if chunk.choices[0].delta.content is not None:
+         out += chunk.choices[0].delta.content.replace('``','')
          #print(chunk.choices[0])
+  #console.print(Markdown(out), end="")
+  print(out)
+
 
 def hr():
     out = ""
