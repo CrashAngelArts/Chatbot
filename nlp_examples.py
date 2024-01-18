@@ -665,3 +665,141 @@ add_phrase(categories[0].category_id, pressupositions, "Ambos os parceiros são 
 add_cat(categories, "você. Classificação Aristotélica",""
 add_phrase(categories[0].category_id, phrases, "Você se mudou duas vezes recentemente. Então, você é um andarilho?"
 add_phrase(categories[0].category_id, pressupositions, "Você existe como uma [classe, instância, objeto ou coisa]."
+
+
+# Prestidigitação
+prestidigitations = []
+add_cat(categories, "Prestidigitação","Introdução ao truque de boca. O termo Prestidigitação é derivado do termo Prestidigitação. A palavra Sleight vem de uma palavra em nórdico antigo que significa "inteligente", "artístico" ou "hábil". Prestidigitação é o tipo de arte mágica que os mágicos nos mostram. Típico desse tipo de truque é o aparente desaparecimento das coisas, expresso na frase "Agora você vê, agora não". Por exemplo, alguém coloca um ás de espadas em cima de um baralho de cartas, mas quando o feiticeiro pega a carta, ela “se transforma” em uma dama de copas. Os padrões verbais do Sleight of Mouth têm uma qualidade "mágica" semelhante porque muitas vezes levam a mudanças dramáticas na percepção, bem como nas suposições nas quais certas percepções se baseiam. Os padrões de prestidigitação podem ser usados ​​para ajudar o parceiro a examinar mais de perto suas suposições não verificadas ou a examinar mais de perto a validade de uma suposta universalidade. Ao fazer isso, cada crença perde muito do seu poder limitante e novas perspectivas e oportunidades emergem. Muitas vezes não se trata tanto do que você não pode fazer, mas do que você nunca considerou. Os padrões Sleight of Mouth incluem quatorze tipos distintos de resignificação verbal, que nos permitem reconectar nossas generalizações e modelos mentais do mundo à nossa experiência e aos outros aspectos da metaestrutura (estados internos, expectativas e valores) de nossas crenças. Os vários padrões de Sleight of Mouth nos ajudam, impulsionando-nos: para pontuar e “agregar” nossas percepções identificar e apreciar diferentes perspectivas e modelos do mundo, descobrir as estratégias internas pelas quais julgamos a realidade e através das quais desenvolvemos e atualizamos nossas crenças, explorar como desenvolvemos os mapas mentais que usamos para desenvolver expectativas, encontrar causas e dar significado às nossas experiências do mundo, reconhecer a influência dos estados internos em nossas crenças e atitudes  para acompanhar o processo natural de mudança de crenças,  para compreender melhor o efeito da linguagem e das crenças em diferentes níveis da nossa experiência, para tomar consciência dos potenciais vírus do pensamento e das insinuações e pressuposições tácitas. Aplicando alguns exemplos de crenças limitantes, os padrões individuais são mostrados abaixo em suas diferentes dimensões."
+
+add_cat(categories, "Intenção"
+add_phrase(categories[0].category_id, phrases, "Que propósito positivo ou intenção positiva está subjacente a esta convicção ou crença?"
+add_phrase(categories[0].category_id, prestidigitations, "Há muitas maneiras de desenvolver um senso de poder e controle quando você está preocupado com sua própria segurança. (Intenção: desenvolver um senso de poder e controle)
+add_phrase(categories[0].category_id, prestidigitations, "É muito importante tomar todas as medidas possíveis para garantir que as pessoas se comportem de forma ética. (Intenção: tomar todas as medidas possíveis para garantir que as pessoas se comportem de forma ética).
+add_phrase(categories[0].category_id, prestidigitations, "Sei que é sua intenção não suscitar falsas esperanças, mas pode ser que desta forma esteja geralmente a impedir que a esperança surja.
+add_phrase(categories[0].category_id, prestidigitations, "Admiro e apoio muito seu esforço para ser honesto consigo mesmo. (intenção positiva: honestidade)
+add_phrase(categories[0].category_id, prestidigitations, "É muito importante ser realista quanto à mudança de crenças. Vamos dar uma olhada realista nessa crença e pensar no que seria necessário para mudá-la. (intenção positiva: seja realista).
+
+add_cat(categories, "Redefinir","O comportamento recebe outros significados. A fórmula geral para este padrão é: Não é A, mas..."
+add_phrase(categories[0].category_id, phrases, "Qual outra palavra significa algo semelhante a uma das palavras usadas na declaração de crença, mas tem implicações mais positivas?"
+add_phrase(categories[0].category_id, prestidigitations, "Acredito que você deve fazer tudo ao seu alcance para não se tornar uma vítima. (“A pessoa X pretende me prejudicar e estou em perigo” -> “Sou uma vítima”.)
+add_phrase(categories[0].category_id, prestidigitations, "Tais desafios são necessários para aprender a enfrentar as dificuldades com coragem, constância e sabedoria (“estar em perigo” -> “um desafio”).
+add_phrase(categories[0].category_id, prestidigitations, "Em última análise, o cancro não causa a morte, mas sim a falha do sistema imunitário. Portanto, devemos tentar encontrar uma forma de fortalecer o sistema imunológico
+add_phrase(categories[0].category_id, prestidigitations, "É claro que os nossos sentimentos em relação ao cancro podem causar ansiedade e perda de esperança, o que pode tornar a vida muito mais difícil.
+add_phrase(categories[0].category_id, prestidigitations, "Sim, pode ser difícil abandonar algo que você se apegou com tanta teimosia. (“o que você teve por muito tempo” -> “o que você teimosamente segurou”, “difícil de mudar” -> “difícil de abandonar”).
+add_phrase(categories[0].category_id, prestidigitations, "É claro que inicialmente pode parecer estranho cruzar fronteiras familiares. ("Convicção" -> "limites familiares", "difícil de mudar" -> "parece estranho no início, para ultrapassar")
+
+add_cat(categories, "Consequência","Este padrão visa conscientizar o falante das consequências que tal afirmação pode ter. Num nível lógico superior, trata-se de uma questão de equivalência entre duas categorias logicamente não equivalentes (comportamento exterior e estado interior)."
+add_phrase(categories[0].category_id, phrases, "Qual é o efeito positivo da crença ou do relacionamento por ela definido?"
+add_phrase(categories[0].category_id, prestidigitations, "Será muito mais difícil machucá-lo no futuro porque agora você sabe reconhecer situações perigosas e pedir ajuda. Este é o primeiro passo no caminho da transformação de vítima em herói. Agora que você percebeu isso, será difícil enganá-lo novamente.
+add_phrase(categories[0].category_id, prestidigitations, "Infelizmente, crenças como essas tendem a se tornar profecias autorrealizáveis ​​porque fazem com que as pessoas desistam de procurar outras possibilidades.
+add_phrase(categories[0].category_id, prestidigitations, "A expectativa de que algo se tornará mais difícil muitas vezes faz com que o assunto em questão pareça mais fácil depois de resolvido.
+add_phrase(categories[0].category_id, prestidigitations, "Se realmente nos permitirmos vivenciar nossas preocupações, poderemos descartá-las melhor depois e então nos concentrar no que queremos.
+
+add_cat(categories, "Fragmentação","Uma declaração mais específica que contém informações implícitas na declaração original. A fragmentação leva a diferenciações e distinções entre as coisas; há um estreitamento dos elementos sobre os quais algo é dito."
+add_phrase(categories[0].category_id, phrases, "Quais elementos ou partes menores estão implícitos na crença, mas têm uma relação mais diversa e positiva com ela do que aqueles realmente expressos na crença?"
+add_phrase(categories[0].category_id, prestidigitations, "Para lidar eficazmente com a situação, é necessário primeiro determinar se o risco de uma lesão ou dano é agora maior ou se ainda corremos hoje o mesmo risco que no momento da primeira lesão.
+add_phrase(categories[0].category_id, prestidigitations, "Quando você diz que a Pessoa X “pretende” prejudicá-lo, você quer dizer que a Pessoa X desenvolve mentalmente uma imagem de como ela irá prejudicá-lo? E se for assim, qual parte da imagem é mais perigosa e como a pessoa X realmente age de acordo com a imagem? O que você acha que criou essa imagem na mente da Pessoa X?
+add_phrase(categories[0].category_id, prestidigitations, "Muitas vezes me perguntei quanta “morte” cada célula cancerosa pode conter.
+add_phrase(categories[0].category_id, prestidigitations, "Como uma crença que foi desenvolvida recentemente é muito mais fácil de mudar, você pode tentar lembrar como era quando adquiriu sua crença, para imaginar que a havia mudado naquele momento. (muito tempo -> pouco tempo)
+add_phrase(categories[0].category_id, prestidigitations, "Se você não tentasse mudar toda a crença de uma só vez, mas, em vez disso, gradualmente, mais e mais partes dela, isso poderia parecer mais fácil e lhe dar prazer. (Mudança de crença -> mudança gradual de crença em partes)
+
+add_cat(categories, "Agrupando","Um nível mais alto de generalização, uma afirmação contendo a afirmação antiga como um caso especial."
+add_phrase(categories[0].category_id, phrases, "Que elementos ou classes maiores estão implícitos na crença e que têm uma relação mais multifacetada ou mais positiva com ela do que aquela expressa na própria crença?"
+add_phrase(categories[0].category_id, prestidigitations, "Sentimentos intensos são sempre a base da nossa motivação para mudar. CG Jung disse que sem dor não há realização. "(Dano ->" sentimentos intensos "," dor ")
+add_phrase(categories[0].category_id, prestidigitations, "Lidar com o desconforto que vivenciamos ao lidar com riscos que ameaçam a vida é uma das maneiras de nos tornarmos mais fortes e mais competentes (“dano” -> “desagrado” / “perigo” -> “riscos que ameaçam a vida”).
+add_phrase(categories[0].category_id, prestidigitations, "Você está sugerindo que uma mudança ou mutação numa pequena parte do sistema deve sempre levar à destruição de todo o sistema?
+add_phrase(categories[0].category_id, prestidigitations, "O futuro nem sempre pode ser previsto com base no passado. O conhecimento pode evoluir muito rapidamente se permanecer conectado aos processos que o adaptam naturalmente à situação atual. (Crença -> uma forma de conhecimento; será difícil -> futuro).
+add_phrase(categories[0].category_id, prestidigitations, "Todos os processos de mudança passam por um ciclo natural que não pode ser acelerado. A questão é quanto tempo dura o ciclo de vida natural da sua crença.
+
+add_cat(categories, "Analogia","Com analogia/ metáfora conto algo sobre um fato para tornar outra circunstância - análoga - mais compreensível ou para alterá-la. A metáfora assume um isomorfismo estrutural dos elementos e relações dos dois estados."
+add_phrase(categories[0].category_id, phrases, "Que outra relação é semelhante àquela definida pela crença (e, portanto, uma metáfora para ela), mas tem outras implicações?"
+add_phrase(categories[0].category_id, prestidigitations, "Aprendemos a dominar as relações interpessoais da mesma forma que aprendemos a andar de bicicleta quando crianças: quando caímos, imediatamente nos levantamos sozinhos, ignoramos os arranhões nos joelhos e provamos nossa determinação fazendo imediatamente novas tentativas até que finalmente conseguimos. capaz de manter o equilíbrio durante a condução. Ficar bravo com a bicicleta em tal situação porque nos machucou não nos ajuda muito.
+add_phrase(categories[0].category_id, prestidigitations, "Lidar com as intenções dos outros é algo semelhante à ação de um toureiro. No interesse da nossa própria segurança, precisamos de ser claros sobre como chamamos a atenção do touro para nós, focamos a sua atenção como queremos e aprendemos a evitá-lo quando o vemos a preparar-se para atacar.
+add_phrase(categories[0].category_id, prestidigitations, "câncer é como um prado onde as ervas daninhas estão começando a ficar fora de controle porque as ovelhas não as mantêm cortadas. Os glóbulos brancos do nosso sistema imunológico são iguais aos das ovelhas. Quando o estresse, a falta de exercícios, a má alimentação, etc., reduzem o número de ovelhas, as ervas daninhas crescem demais na grama. Se conseguir aumentar o número de ovelhas, elas irão restaurar o equilíbrio ecológico do prado.
+add_phrase(categories[0].category_id, prestidigitations, "Uma crença é como uma lei. Mesmo leis muito antigas podem ser alteradas rapidamente se um número suficiente de pessoas decidirem por uma nova lei.
+add_phrase(categories[0].category_id, prestidigitations, "Os dinossauros provavelmente ficaram bastante surpresos com a rapidez com que seu mundo mudou, embora já vivessem nele há muito tempo.
+
+add_cat(categories, "Mudança no tamanho do quadro",""
+add_phrase(categories[0].category_id, phrases, "Que período de tempo mais longo (ou mais curto), que número maior ou menor de pessoas ou que perspectiva mais ampla ou mais limitada mudaria as implicações da crença para melhor?"
+add_phrase(categories[0].category_id, prestidigitations, "Lidar com o sofrimento dos outros é um dos problemas mais difíceis que a nossa espécie ainda tem de resolver. A menos que o façamos com sabedoria e compaixão, haverá violência, guerra e genocídio, tanto a nível individual como global.
+add_phrase(categories[0].category_id, prestidigitations, "Todos devem aprender a lidar com as desvantagens da existência humana. Olhando para trás, para esse incidente no final da sua vida, você perceberá que foi apenas um pequeno buraco no caminho da sua vida.
+add_phrase(categories[0].category_id, prestidigitations, "Se todas as pessoas tivessem esta convicção, nunca encontraríamos uma cura. Você gostaria que seus filhos acreditassem nisso também?
+add_phrase(categories[0].category_id, prestidigitations, "Dentro de alguns anos você provavelmente não se lembrará de ter tido essa crença.
+add_phrase(categories[0].category_id, prestidigitations, "Você provavelmente não é a primeira ou a única pessoa que acredita nessa crença. Se mais e mais pessoas forem capazes de mudar isso ao longo do tempo, também poderá ser mais fácil para outros mudarem esse tipo de crença no futuro.
+
+add_cat(categories, "Outro resultado",""
+add_phrase(categories[0].category_id, phrases, "Que outro resultado ou problema pode ser mais relevante do que aquele que a crença expressa ou implica?"
+add_phrase(categories[0].category_id, prestidigitations, "O resultado tem menos a ver com como evitar ser ferido ou ferido por uma determinada pessoa e mais com o desenvolvimento das competências necessárias para viver em segurança, independentemente do que as outras pessoas possam pensar ou fazer.
+add_phrase(categories[0].category_id, prestidigitations, "Na minha opinião, não se trata tanto das intenções que alguém possa ter tido, mas sim do que pode levar uma pessoa a mudar a sua intenção.
+add_phrase(categories[0].category_id, prestidigitations, "Na verdade, trata-se menos do que causa a morte do que do que faz a vida valer a pena.
+add_phrase(categories[0].category_id, prestidigitations, "Não é necessário mudar a crença. Só precisa ser adaptado à situação atual.
+add_phrase(categories[0].category_id, prestidigitations, "Não se trata necessariamente de mudar crenças, mas de conciliar o seu mapa do mundo com a sua situação atual.
+
+add_cat(categories, "Modelo do Mundo",""
+add_phrase(categories[0].category_id, phrases, "Que outro modelo de mundo faria esta crença aparecer sob uma luz completamente diferente?"
+add_phrase(categories[0].category_id, prestidigitations, "Os sociobiólogos diriam que o estado evolutivo de desenvolvimento dos hormônios da Pessoa X é a causa do seu perigo, e não o que você ou ele considera sua intenção consciente.
+add_phrase(categories[0].category_id, prestidigitations, "Imaginem as pessoas em todo o mundo que tiveram constantemente de lidar com a realidade da opressão social, por exemplo, sob a forma de racismo e perseguição religiosa. Você provavelmente aceitaria uma situação em que só teria que lidar com as intenções e ações negativas de uma única pessoa que você conhece.
+add_phrase(categories[0].category_id, prestidigitations, "Muitos médicos acreditam que todos nós temos algumas células mutantes em nossos corpos o tempo todo, e que isso só pode se tornar um problema se o nosso sistema imunológico estiver enfraquecido. Assim, as células degeneradas seriam apenas um dos vários fatores – incluindo dieta, atitude, estresse, tratamento médico adequado, etc. – que determinam quanto tempo uma pessoa viverá.
+add_phrase(categories[0].category_id, prestidigitations, "Você pode se considerar sortudo. Muitas pessoas nem sequer percebem que os seus limites são condicionados por crenças que podem ser alteradas.
+add_phrase(categories[0].category_id, prestidigitations, "Os artistas costumam usar suas próprias lutas internas como fonte de inspiração para sua criatividade. Eu me pergunto que tipo de criatividade pode surgir em seu esforço para mudar suas crenças.
+
+add_cat(categories, "Estratégia de Realidade","Este padrão trata de questionar o processo perceptivo que está subjacente a esta afirmação."
+add_phrase(categories[0].category_id, phrases, "Que outro modelo de mundo faria esta crença aparecer sob uma luz completamente diferente?"
+add_phrase(categories[0].category_id, prestidigitations, "Se você pensar em quaisquer ferimentos ou danos que tenha sofrido, você vivenciará cada situação individual separadamente ou todas interligadas? Vocês se lembram deles a partir de sua perspectiva associada ou todos os veem em uma espécie de compilação, como se estivessem assistindo a algum tipo de documentário sobre sua vida?
+add_phrase(categories[0].category_id, prestidigitations, "Suas memórias de eventos que já passaram lhe dão a mais forte sensação de perigo, ou melhor, suas noções sobre eventos que podem ocorrer no futuro?
+add_phrase(categories[0].category_id, prestidigitations, "Como exatamente você representa essa crença? Você pensa no câncer como um intruso inteligente? Que tipo de representações internas você tem e como seu corpo responde? Você acha que seu corpo e seu sistema imunológico são mais inteligentes que o câncer?
+add_phrase(categories[0].category_id, prestidigitations, "O que faz você ter tanta certeza de que já tem essa crença há muito tempo?
+add_phrase(categories[0].category_id, prestidigitations, "Que qualidades específicas do que você vê ou ouve quando pensa em mudar essa crença fazem com que isso pareça difícil para você?
+
+add_cat(categories, "Contra-exemplo","Os contra-exemplos servem para destruir a evidência de uma crença e, assim, abrir novas oportunidades para expandir o modelo de mundo de alguém e recuperar informações excluídas. Um bom método é escolher contra-exemplos da história do falante."
+add_phrase(categories[0].category_id, phrases, "Qual exemplo ou experiência é uma exceção à regra definida pela crença?"
+add_phrase(categories[0].category_id, prestidigitations, "Se ao menos não precisássemos nos preocupar com nada acontecendo só porque nunca aconteceu antes. É mais provável que enfrentemos o maior perigo devido a acontecimentos que ainda não aconteceram; portanto, devemos estar preparados para todas as possibilidades.
+add_phrase(categories[0].category_id, prestidigitations, "Para ter certeza, precisamos lembrar que pessoas que têm as melhores intenções e que nunca nos fizeram mal algum ainda podem nos colocar em grande perigo. Pense naqueles que acidentalmente matam outras pessoas em acidentes de carro. Também dizemos: “O caminho para o inferno está cheio de boas intenções”.
+add_phrase(categories[0].category_id, prestidigitations, "Hoje, são conhecidos cada vez mais casos em que pessoas comprovadamente sobreviveram ao cancro e gozaram de muitos anos de excelente saúde.
+add_phrase(categories[0].category_id, prestidigitations, "Muitas vezes testemunhei como as crenças surgiram e depois mudaram. O pré-requisito para tal era que a pessoa em causa fosse submetida à experiência necessária e recebesse apoio durante a sua realização.
+add_phrase(categories[0].category_id, prestidigitations, "A maioria dos outros processos mentais parece desaparecer gradualmente e, com o tempo, não se torna mais forte, mas sim mais suscetível à distorção. Por que as crenças deveriam ser tão diferentes nesse aspecto?
+
+add_cat(categories, " Hierarquia de critérios","Encontre um critério superior que não foi considerado na declaração. Isto direciona a atenção para outra direção, para outra equivalência de maior significado ou intensidade."
+add_phrase(categories[0].category_id, phrases, "Que critério ainda não considerado pode ser mais importante do que aqueles expressos na crença?"
+add_phrase(categories[0].category_id, prestidigitations, "Tenho descoberto repetidamente que é mais importante descobrir quais recursos preciso para ter sucesso no caminho escolhido, em vez de me preocupar com os efeitos temporariamente prejudiciais das intenções de outras pessoas.
+add_phrase(categories[0].category_id, prestidigitations, "Você não acha que é mais importante não se tornar escravo de seus próprios medos do que tentar evitar a inevitabilidade final de sermos ocasionalmente feridos?
+add_phrase(categories[0].category_id, prestidigitations, "Talvez seja mais importante que nos concentremos no propósito das nossas vidas e na missão da vida, em vez de quanto tempo as nossas vidas irão durar.
+add_phrase(categories[0].category_id, prestidigitations, "A congruência e a integridade pessoais justificam todo esforço que você deve fazer para alcançá-las.
+add_phrase(categories[0].category_id, prestidigitations, "O grau em que uma crença é consistente e apoia a visão ou missão de alguém é mais importante do que há quanto tempo se tem essa crença.
+
+add_cat(categories, "Aplique a si mesmo","Neste padrão, o critério do enunciado é aplicado ao enunciado ou ao próprio locutor. Em outras palavras, o comportamento ou declaração do falante é um exemplo do que ele culpa no outro."
+add_phrase(categories[0].category_id, phrases, "Como podemos julgar a própria declaração de crença de acordo com as relações ou critérios definidos pela crença?"
+add_phrase(categories[0].category_id, prestidigitations, "Como as intenções negativas são tão prejudiciais e perigosas, devemos ser muito claros sobre como entendemos as nossas próprias intenções e como nos comportamos em relação a elas. Você tem certeza de que seu próprio julgamento se baseia em uma intenção positiva?
+add_phrase(categories[0].category_id, prestidigitations, "Quando nossas crenças sobre as intenções negativas de outra pessoa servem como justificativa para tratarmos essa pessoa como ela nos trata, nos tornamos como essa pessoa.
+add_phrase(categories[0].category_id, prestidigitations, "Pode ser muito perigoso pensar que somos ameaçados apenas por aqueles que nos feriram ou prejudicaram no passado. Se nossas crenças nos forçarem a reviver lesões passadas repetidas vezes, isso poderá causar tanta dor quanto as ações de uma pessoa real com intenções negativas.
+add_phrase(categories[0].category_id, prestidigitations, "Esta crença espalhou-se como cancro nos últimos anos; e parece bastante mortal, rígido demais para mantê-lo. Certamente seria interessante observar o que aconteceria se ele morresse.
+add_phrase(categories[0].category_id, prestidigitations, "Há quanto tempo você pensa que a capacidade de mudar crenças depende principalmente da duração de sua existência?
+add_phrase(categories[0].category_id, prestidigitations, "O que você acha sobre quão difícil seria mudar sua crença de que uma generalização de longa data é difícil de mudar?
+
+add_cat(categories, " Meta-Quadro","Neste padrão, estamos nos dividindo em um contexto maior ou em uma estrutura maior de significado."
+add_phrase(categories[0].category_id, phrases, "Que crença sobre esta crença pode mudar a percepção que alguém tem dela?"
+add_phrase(categories[0].category_id, prestidigitations, "A investigação científica indica que é natural que tenhamos medo dos outros e das suas intenções até que tenhamos desenvolvido auto-estima e confiança suficientes nas nossas próprias capacidades.
+add_phrase(categories[0].category_id, prestidigitations, "Enquanto você insistir em permanecer preso a um quadro problemático em relação ao comportamento e às intenções da pessoa X, inevitavelmente sofrerá as consequências dessa atitude. Quando estiver pronto para mudar para uma estrutura de resultados, você encontrará muitas soluções possíveis.
+add_phrase(categories[0].category_id, prestidigitations, "Uma crença excessivamente simplificadora como esta pode surgir se não tivermos um modelo que nos permita examinar e testar todas as variáveis ​​complexas que contribuem para o processo de vida e morte.
+add_phrase(categories[0].category_id, prestidigitations, "Talvez você tenha essa crença porque não possui as ferramentas necessárias para a mudança e porque, como não é, se beneficia disso de alguma forma.
+
+add_cat(categories, "Padrão de prestidigitação",""
+add_phrase(categories[0].category_id, phrases, "Se você diz coisas ruins, então você é uma pessoa má."
+add_phrase(categories[0].category_id, prestidigitations, "Intenção - Você quer que as pessoas se tratem com mais respeito."
+add_phrase(categories[0].category_id, prestidigitations, "Redefinir o comportamento - Não digo coisas maldosas, mas sou muito claro."
+add_phrase(categories[0].category_id, prestidigitations, "Redefinir Equivalência - Não sou uma pessoa má, apenas honesta."
+add_phrase(categories[0].category_id, prestidigitations, "Consequência - O que aconteceria se descobrisse que essa crença é muito cruel?"
+add_phrase(categories[0].category_id, prestidigitations, "Desmembrando - Como exatamente você define "malvado"? São as palavras, a ênfase ou o volume?
+add_phrase(categories[0].category_id, prestidigitations, "Agregando - Eu entendo que é importante para você como eu me comunico com você. Como você sabe que qualquer pessoa que diz coisas “malvadas” também é automaticamente uma pessoa má?"
+add_phrase(categories[0].category_id, prestidigitations, "Analogia / Metáfora - Às vezes, um dentista pode dizer coisas a seus pacientes que parecem maldosas, mas não consigo imaginar que você gostaria que seu dentista mentisse para você."
+add_phrase(categories[0].category_id, prestidigitations, "Analogia / Metáfora - Afinal, é função dele alertar você sobre o real estado de seus dentes ou avisar que você come doces demais."
+add_phrase(categories[0].category_id, prestidigitations, "Mudança no tamanho do quadro - Isso pode parecer desconfortável agora, mas daqui a um ano você olhará para trás e ficará feliz por alguém ter lhe dado esse feedback."
+add_phrase(categories[0].category_id, prestidigitations, "Outro resultado - Só estou dizendo isso para dar um feedback para que você possa melhorar."
+add_phrase(categories[0].category_id, prestidigitations, "Modelo do Mundo - Isso pode ser verdade para você, eu experimento isso de maneira bem diferente."
+add_phrase(categories[0].category_id, prestidigitations, "Estratégia de Realidade - Como você sabe que essa pessoa é má?"
+add_phrase(categories[0].category_id, prestidigitations, "Estratégia de Realidade - Como você sabe que coisas ruins provam que alguém é uma pessoa má?"
+add_phrase(categories[0].category_id, prestidigitations, "Contra-exemplo - Alguém poderia ser uma pessoa má e não dizer nada maldoso?"
+add_phrase(categories[0].category_id, prestidigitations, "Hierarquia de critérios - Não é mais importante ser aberto (honesto, claro, etc.) do que dizer aos outros apenas coisas gentis?"
+add_phrase(categories[0].category_id, prestidigitations, "Aplicar a si mesmo (aplicado ao palestrante) - Acho que é maldade dizer isso. Isso significa que você apenas procura sinais de maldade em uma pessoa e ignora todos os outros aspectos dessa pessoa?"
+add_phrase(categories[0].category_id, prestidigitations, "Aplicar a si mesmo (aplicado ao palestrante) - Apenas pessoas más consideram os outros maus."
+add_phrase(categories[0].category_id, prestidigitations, "Meta-quadro - Você só diz isso para se controlar melhor."

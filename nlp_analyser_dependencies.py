@@ -4,6 +4,14 @@ from elasticsearch import Elasticsearch
 from dataclasses import dataclass, asdict, is_dataclass, field
 
 @dataclass
+class	
+	promprt: str
+	pattern_input: str
+	pattern_reply: str
+	text_input: str
+	reply_ia: str
+
+@dataclass
 class Categories:
     category_id: str
     category: str
@@ -165,4 +173,3 @@ print(search_results)
 # To delete a document with ID 'some_document_id' from the 'phrases' index
 #delete_result = delete_document('phrases', 'some_document_id')
 #print(delete_result)
-
